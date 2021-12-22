@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "2dfd1484-8569-459a-9365-7bbf20e039bd",
+		"name": "waveweb 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Save credit card",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"card_name\": \"Teste\",\n    \"card_number\": \"5B02092388802099\",\n    \"card_cvv\": \"209\",\n    \"card_expiration\": \"01/2027\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000",
+					"host": [
+						"localhost"
+					],
+					"port": "8000"
+				}
+			},
+			"response": []
+		}
+	]
+}
